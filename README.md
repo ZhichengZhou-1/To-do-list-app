@@ -2,7 +2,8 @@
 ## To run this app:
 ### 1. `npm install` to install all dependencies in package.json
 ### 2. `node server.js` to start the server
-### 3. The app runs default on *localhost:3000* <br />
+### 3. The app runs default on *localhost:3000* 
+### 4. The URL to my googlesheet is: https://docs.google.com/spreadsheets/d/1UAl8Mfv5n9_nyBjM3cRSFU_UuE-rmDrE5DdLJ-JRspw/edit#gid=0 I made it public so user can edit freely <br />
 
 ## Quick rundown:
 ### *localhost:3000* will show the landing page consists of 3 buttons where you can choose to list, add or delete
