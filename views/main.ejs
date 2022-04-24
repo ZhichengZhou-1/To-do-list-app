@@ -4,7 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="../server.js"></script>
     <title>Three buttons</title>
+    <style>
+        footer {
+            text-align: center;
+            position:absolute;
+            bottom:0;
+            width:100%;
+            height:100px;
+            color: black;
+        }
+        </style>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
@@ -14,11 +25,15 @@
         <p>&#128512;</p>
         <br>
         <h2>Please choose your action from the buttons below</h2>
-        <button onclick="window.location.href='list.ejs'" type ="button" class="btn btn-primary">List</button>
+        <button onclick="window.location ='/all'" type ="button" class="btn btn-primary">List</button>
             
         <button onclick="window.location.href='index.ejs'" type="button" class="btn btn-primary">Add</button>
 
-        <button onclick="window.location.href='delete.ejs'" type="button" class="btn btn-primary">Delete</button>
+        <button onclick="window.location ='delete.ejs'" type="button" class="btn btn-primary">Delete</button>
     </div>
+    <footer>
+        <p>Author: Jason Zhou</p>
+        <p><a href="mailto:zhichengzhou123@gmail.com">zhichengzhou123@gmail.com</a></p>
+      </footer>
 </body>
 </html>
